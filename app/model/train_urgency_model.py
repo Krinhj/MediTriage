@@ -27,5 +27,5 @@ print("\n🩺 Classification Report:")
 print(classification_report(y_test, y_pred, target_names=["Routine", "Urgent", "Emergency"]))
 
 # Save model
-joblib.dump(clf, "urgency_model.pkl")
-print("\n💾 Model saved to 'urgency_model.pkl'")
+joblib.dump(clf, "model/urgency_model.pkl")
+print("\n💾 Model saved to 'model/urgency_model.pkl'")

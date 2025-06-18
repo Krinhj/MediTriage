@@ -24,5 +24,5 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
 # Step 6: Save model
-joblib.dump(clf, "triage_model.pkl")
-print("\nModel saved to 'triage_model.pkl'.")
+joblib.dump(clf, "model/triage_model.pkl")
+print("\nModel saved to 'model/triage_model.pkl'.")
